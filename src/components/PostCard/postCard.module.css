@@ -1,0 +1,61 @@
+.card {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card span {
+    display: block;
+    font-size: 0.85rem;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    color: #222222;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+
+.card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #444444;
+    margin-bottom: 16px;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
+.card button {
+    background-color: #ff6347;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #e5533b;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #333333;
+}

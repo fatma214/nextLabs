@@ -1,0 +1,14 @@
+
+.sidebar {
+    position: fixed;
+    top: 60px;  
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    font-weight: bold;
+    color: red!important;
+    
+    color: #fff;
+    padding: 70px;
+     
+}

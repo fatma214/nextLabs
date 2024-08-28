@@ -1,0 +1,12 @@
+
+
+.fixedBottom{
+    position:fixed;
+    bottom: 0;
+    background-color: black;
+    color:white;
+    text-align:center;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
