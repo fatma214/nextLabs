@@ -12,7 +12,7 @@ const Blog = async () => {
   return (
     <>
       <div className={style.postContainer}>
-        {news.map((item) => (
+        {news.reverse().map((item) => (
           <Link key={item._id} href={`/blog/${item._id}`}>
             <PostCard
               title={item.title}

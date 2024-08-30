@@ -42,6 +42,10 @@ export const menuItems = [
      href:"/post",
      label:"post"
     },
+    {
+     href:"/post/add",
+     label:"add post"
+    },
     
 
  ]
